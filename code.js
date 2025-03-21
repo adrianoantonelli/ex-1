@@ -44,7 +44,7 @@ export function disegnaPunto({
 }) {
   push();
   translate(x, y);
-  line(0, 0, 0, beta);
+  line(0, 0, gamma, beta);
   pop();
 }
 
